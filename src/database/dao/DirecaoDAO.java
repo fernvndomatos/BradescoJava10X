@@ -116,5 +116,7 @@ public class DirecaoDAO {
         tb.setSenha_origem(rs.getString("SENHA_ORIGEM"));
         tb.setSenha_destino(rs.getString("SENHA_DESTINO"));
         tb.setHabilitado(rs.getBoolean("HABILITADO"));
+        return tb;
     }
+
 }
