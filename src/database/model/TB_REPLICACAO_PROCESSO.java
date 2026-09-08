@@ -34,7 +34,7 @@ public class TB_REPLICACAO_PROCESSO {
         this.descricao = descricao;
     }
 
-    public boolean getHabilitado() {
+    public boolean isHabilitado() {
         return habilitado;
     }
 
