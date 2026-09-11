@@ -2,7 +2,7 @@ package database.model;
 
 public class TB_REPLICACAO_PROCESSO {
 
-    private Long id;
+    private long id;
     private String processo;
     private String descricao;
     private boolean habilitado;
@@ -10,11 +10,11 @@ public class TB_REPLICACAO_PROCESSO {
     public TB_REPLICACAO_PROCESSO() {
     }
 
-    public Long getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(long id) {
         this.id = id;
     }
 
